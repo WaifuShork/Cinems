@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinems", "src\Cinems\Cinems.csproj", "{E593C353-DC13-4E69-8EA1-4F8DEDB134CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinems.Tests", "src\Cinems.Tests\Cinems.Tests.csproj", "{53A31D7A-FB21-44D7-9EF5-1503F215A94A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E593C353-DC13-4E69-8EA1-4F8DEDB134CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E593C353-DC13-4E69-8EA1-4F8DEDB134CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E593C353-DC13-4E69-8EA1-4F8DEDB134CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E593C353-DC13-4E69-8EA1-4F8DEDB134CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A31D7A-FB21-44D7-9EF5-1503F215A94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A31D7A-FB21-44D7-9EF5-1503F215A94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A31D7A-FB21-44D7-9EF5-1503F215A94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A31D7A-FB21-44D7-9EF5-1503F215A94A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,105 @@
+2021-09-09 04:35:36.964 -04:00 [INF] User profile is available. Using 'C:\Users\Ashle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-09 04:35:37.017 -04:00 [INF] Creating key {25be172c-2874-45a7-b150-94fbce90cbe4} with creation date 2021-09-09 08:35:37Z, activation date 2021-09-09 08:35:36Z, and expiration date 2021-12-08 08:35:36Z.
+2021-09-09 04:35:37.023 -04:00 [INF] Writing data to file 'C:\Users\Ashle\AppData\Local\ASP.NET\DataProtection-Keys\key-25be172c-2874-45a7-b150-94fbce90cbe4.xml'.
+2021-09-09 04:35:37.175 -04:00 [INF] Now listening on: https://localhost:5001
+2021-09-09 04:35:37.175 -04:00 [INF] Now listening on: http://localhost:5000
+2021-09-09 04:35:37.175 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-09 04:35:37.175 -04:00 [INF] Hosting environment: Development
+2021-09-09 04:35:37.175 -04:00 [INF] Content root path: D:\dotnet-workspace\Cinems\src\Cinems
+2021-09-09 04:35:37.841 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-09-09 04:35:37.858 -04:00 [INF] Executing endpoint 'Cinems.Controllers.HomeController.Index (Cinems)'
+2021-09-09 04:35:37.892 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Cinems.Controllers.HomeController (Cinems).
+2021-09-09 04:35:37.909 -04:00 [INF] Executing ViewResult, running view Index.
+2021-09-09 04:35:38.002 -04:00 [INF] Executed ViewResult - view Index executed in 97.3822ms.
+2021-09-09 04:35:38.003 -04:00 [INF] Executed action Cinems.Controllers.HomeController.Index (Cinems) in 110.4337ms
+2021-09-09 04:35:38.003 -04:00 [INF] Executed endpoint 'Cinems.Controllers.HomeController.Index (Cinems)'
+2021-09-09 04:35:38.005 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 165.2624ms
+2021-09-09 04:35:38.055 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2021-09-09 04:35:38.055 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-09-09 04:35:38.055 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-09-09 04:35:38.055 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2021-09-09 04:35:38.055 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-09-09 04:35:38.062 -04:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\dotnet-workspace\Cinems\src\Cinems\wwwroot\js\site.js'
+2021-09-09 04:35:38.062 -04:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\dotnet-workspace\Cinems\src\Cinems\wwwroot\css\site.css'
+2021-09-09 04:35:38.070 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 15.1197ms
+2021-09-09 04:35:38.070 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 15.1196ms
+2021-09-09 04:35:38.071 -04:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\dotnet-workspace\Cinems\src\Cinems\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-09-09 04:35:38.071 -04:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\dotnet-workspace\Cinems\src\Cinems\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-09-09 04:35:38.071 -04:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\dotnet-workspace\Cinems\src\Cinems\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-09-09 04:35:38.072 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 16.8813ms
+2021-09-09 04:35:38.072 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 16.9641ms
+2021-09-09 04:35:38.072 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 16.9761ms
+2021-09-09 04:35:38.134 -04:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2021-09-09 04:35:38.135 -04:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\dotnet-workspace\Cinems\src\Cinems\wwwroot\favicon.ico'
+2021-09-09 04:35:38.135 -04:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 0.9077ms
+2021-09-09 04:35:58.692 -04:00 [INF] User profile is available. Using 'C:\Users\Ashle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-09 04:35:58.793 -04:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Cinems.Program.Main(String[] args) in D:\dotnet-workspace\Cinems\src\Cinems\Program.cs:line 30
+2021-09-09 04:35:58.795 -04:00 [FTL] Host terminated unexpectedly
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Cinems.Program.Main(String[] args) in D:\dotnet-workspace\Cinems\src\Cinems\Program.cs:line 30
+2021-09-09 04:36:15.258 -04:00 [INF] User profile is available. Using 'C:\Users\Ashle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-09 04:36:15.356 -04:00 [INF] Now listening on: https://localhost:5001
+2021-09-09 04:36:15.356 -04:00 [INF] Now listening on: http://localhost:5000
+2021-09-09 04:36:15.356 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-09 04:36:15.356 -04:00 [INF] Hosting environment: Development
+2021-09-09 04:36:15.356 -04:00 [INF] Content root path: D:\dotnet-workspace\Cinems\src\Cinems
+2021-09-09 04:36:45.854 -04:00 [INF] Application is shutting down...
+2021-09-09 04:36:59.850 -04:00 [INF] User profile is available. Using 'C:\Users\Ashle\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-09 04:36:59.947 -04:00 [INF] Now listening on: https://localhost:5001
+2021-09-09 04:36:59.947 -04:00 [INF] Now listening on: http://localhost:5000
+2021-09-09 04:36:59.947 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-09 04:36:59.947 -04:00 [INF] Hosting environment: Development
+2021-09-09 04:36:59.947 -04:00 [INF] Content root path: D:\dotnet-workspace\Cinems\src\Cinems
+2021-09-09 04:37:04.414 -04:00 [INF] Application is shutting down...
