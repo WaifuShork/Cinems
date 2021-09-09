@@ -55,7 +55,6 @@ x64/
 *.vssscc
 .builds
 *.pidb
-*.log
 *.scc
 
 # OS generated files #
@@ -223,3 +222,5 @@ project.lock.json
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+
+*/logs
